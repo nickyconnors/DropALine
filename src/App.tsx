@@ -1,3 +1,4 @@
+// File: App.tsx
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import AppNavigator from './navigation/AppNavigator';
@@ -9,5 +10,4 @@ const App = () => {
     </SafeAreaProvider>
   );
 };
-
 export default App;
